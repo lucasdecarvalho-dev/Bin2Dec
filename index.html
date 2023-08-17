@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <title>Conversor Binário para Decimal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Conversor de Número Binário para Número Decimal</h1>
+    <div class="input">
+      <label for="bin">Digite um número binário que contenha no máximo 8 dígitos: </label>
+      <input type="number" name="bin" id="bin" autofocus required>
+    </div>
+
+    <button id="converter" class="active" onclick="converter()">Converter</button>
+    <p id="atencao" class="disable">Atencao</p>
+    <p id="resultado" class="disable">Resultado</p>
+
+    <button id="recarregar" class="disable" onclick="recarregar()">Converter outro número</button>
+    <script src="script.js"></script>
+  </div>
+
+</body>
+
+</html>
